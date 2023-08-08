@@ -1,0 +1,20 @@
+{
+  "package": {},
+  "code": {
+    "echo_my_prompt.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "function": "my_python_tool",
+      "is_builtin": false,
+      "name": "echo_my_prompt.py",
+      "source": "echo_my_prompt.py",
+      "toolId": "echo_my_prompt.py"
+    }
+  }
+}

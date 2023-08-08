@@ -1,0 +1,21 @@
+inputs:
+  text:
+    type: string
+    is_chat_input: false
+outputs:
+  output_prompt:
+    type: string
+    reference: ${echo_my_prompt.output}
+    evaluation_only: false
+    is_chat_output: false
+nodes:
+- name: echo_my_prompt
+  type: python
+  source:
+    type: code
+    path: echo_my_prompt.py
+  inputs:
+    input1: ${inputs.text}
+  aggregation: false
+  use_variants: false
+node_variants: {}
