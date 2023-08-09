@@ -1,0 +1,32 @@
+{
+  "package": {},
+  "code": {
+    "hello_prompt.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "text": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "name": "hello_prompt.jinja2",
+      "source": "hello_prompt.jinja2",
+      "toolId": "hello_prompt.jinja2"
+    },
+    "echo_my_prompt.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "function": "my_python_tool",
+      "name": "echo_my_prompt.py",
+      "source": "echo_my_prompt.py",
+      "toolId": "echo_my_prompt.py"
+    }
+  }
+}
